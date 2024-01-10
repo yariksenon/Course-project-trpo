@@ -1,0 +1,582 @@
+@media (max-width:1250px){
+    main .delete{
+        display: none;
+    }
+}
+
+
+
+@media (max-width:1000px){
+    /*Header*/
+    header .header .container .header-line .link a {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    header .header .container .header-line .header-logo{
+        padding: 0 0 0 20px;
+    }
+    header .header .container .header-line .header-logo img{
+        width: 200px;
+    }
+    main .delete{
+        display:inline;
+    }
+}
+@media (max-width:800px){
+    /*Header*/
+    header .header .container{
+        height: 50px;
+    }
+    header .header .container .header-line .link a {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    header .header .container .header-line .header-logo{
+        padding: 0 0 0 10px;
+    }
+    header .header .container .header-line .header-logo img{
+        width: 100px;
+    }
+    header .header .container .header-line .link li {
+        padding-right:  5px;
+    }
+    .market img{
+        width: 30px;
+    }
+
+    /*Searc*/
+    main .btn_image{
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+    }
+    main .main .container .search{
+        height: 65px;
+        margin-top: 40px;
+    }
+    #search {
+        font-size: 30px;
+    }
+    main .container .popular-products {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    footer{
+        display: none;
+    }
+
+}
+
+@media (max-width:750px){
+    /*Карточки товара*/
+
+    main .container .container-card .products-1 {
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-2{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-3{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-4{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-5{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-6{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-7{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-8{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-9{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-10{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-11{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-12{
+        height: 200px;
+        width: 250px;
+        margin-top: 18px;
+    }
+
+/*Нижняя часть карточки*/
+
+main .container .container-card .footer-price{
+    width: 250px;
+    height: 150px;
+}
+
+main .container .container-card .footer-price .price{
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    padding: 8px 9px 0px 11px;
+}
+
+main .container .container-1{
+    justify-content: space-around;
+    margin: 0;
+}
+main .container .container-card .footer-price .bottom {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .container .container-card .footer-price .bottom .add-to-cart a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #010101;
+    padding: 2px 10px;
+}
+
+
+
+}
+
+@media (max-width:600px){
+    header .header .container .header-line .link a {
+        display: none;
+    }
+    header .header .container{
+        width: 100%;
+        height: 80px;
+        background-color: #010101;
+    }
+    header .header .container .header-line {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: normal;
+    }
+    .market img{
+        display: none;
+    }
+    header .header .container .header-line .header-logo img {
+        display: none;
+    }
+    .container {
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    header .container_display{
+        display: none;
+    }
+
+
+
+
+
+
+    header .container_display{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+    }
+    header .container_display p{
+        margin-left: 10px;
+        color: #ABC5CF;
+    }
+    header .container_display .display{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    header .display_top{
+        display: flex;
+        justify-content: end;
+        margin-right: 20px;
+    }
+
+
+    header .display_bottom{
+        margin-top: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header .display_bottom .search {
+        width: 80%;
+        padding: 5px;
+        border-radius: 20px;
+        border: 3px solid red;
+        background: url(../img/Search_tel.svg) no-repeat right;
+        margin-right: 20px;
+        background-size: 40px;  
+        color: aliceblue;
+        font-size: 30px;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header .display_bottom .search::placeholder{
+        color: #ABC5CF;
+    }
+
+    header .burger{
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border: 2px solid red;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    /*Search*/
+    main .main .container .search{
+        display: none;
+    }
+    main .sale{
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        margin-top: 0px;
+        width: 100%;
+        align-items: center;
+    }
+    main .sale img{
+        margin-top: 20px;
+        height: 100%;
+        width: 90%;
+    }
+
+    main .container .popular-products {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    main .main .container .we-recommend-you p{
+        padding-top: 25px;
+        font-size: 25px;
+    }
+
+    main .main .container .see-more {
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    /*Карточки товара*/
+
+    main .container .container-card .products-1 {
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-2{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-3{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-4{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-5{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-6{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-7{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-8{
+        height: 160px;
+        width: 200px;;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-9{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-10{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-11{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-12{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+
+/*Нижняя часть карточки*/
+
+main .container .container-card .footer-price{
+    height: 120px;
+    width: 200px;
+}
+
+
+
+
+
+main .container .container-card .footer-price .price{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    padding: 8px 9px 0px 11px;
+}
+
+main .container .container-1{
+    justify-content: space-around;
+    margin: 0;
+}
+main .container .container-card .footer-price .bottom {
+    display: flex;
+    width: 90%;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .container .container-card .footer-price .bottom .add-to-cart a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #010101;
+    padding: 2px 10px;
+}
+
+main .container .container-card .footer-price .bottom .favorite{
+    display: none;
+}
+}
+
+@media (max-width:600px){
+    main .container .container-card .products-1 {
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-2{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-3{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-4{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-5{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-6{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-7{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-8{
+        height: 160px;
+        width: 200px;;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-9{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-10{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-11{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-12{
+        height: 160px;
+        width: 200px;
+        margin-top: 18px;
+    }
+
+    main .container .container-card .footer-price{
+        height: 120px;
+        width: 200px;
+    }
+}
+
+@media (max-width:410px){
+    main .container .container-card .products-1 {
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-2{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-3{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-4{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-5{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-6{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-7{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-8{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-9{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-10{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-11{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+    
+    main .container .container-card .products-12{
+        height: 140px;
+        width: 160px;
+        margin-top: 18px;
+    }
+
+    main .container .container-card .footer-price{
+        height: 110px;
+        width: 160px;
+    }
+}
